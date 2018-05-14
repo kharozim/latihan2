@@ -4,13 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/adtivity_horizontal_margin"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Panjang" />
+        android:text="@string/Panjang" />
 
     <EditText
         android:id="@+id/edt_length"
@@ -23,7 +25,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:lines="1"
-        android:text="Lebar" />
+        android:text="@string/lebar" />
 
     <EditText
         android:id="@+id/edt_width"
@@ -35,7 +37,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Tinggi" />
+        android:text="@string/tinggi" />
 
     <EditText
         android:id="@+id/edt_height"
@@ -48,14 +50,14 @@
         android:id="@+id/btn_hitung"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hitung" />
+        android:text="@string/hitung" />
 
     <TextView
         android:id="@+id/hasil"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Hasil"
+        android:text="@string/hasil"
         android:textSize="24sp"
         android:textStyle="bold" />
 
